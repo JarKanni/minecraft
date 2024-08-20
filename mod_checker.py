@@ -1,15 +1,17 @@
 ### mod checker: see if mods are up to date
-
-# load mod dictionary, links
-mods = {name:link}
+import pandas as pd
 
 
-# ask input for $version to check
-version = input('Version?')
+# load mod dictionary, links   {name:link}
+mods = pd.read_csv(mod_list.csv, index_col=0, skiprows=2)
+
+
+# ask for $version to check
+version = input('Current Version: ')
 
 
 # check all links for $latest_version
-
+### use beautiful soup??; scrape into json??
 
 
 # compare versions
