@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
 echo -e '\nDown to the Den...\n'
+echo '....\n'
+echo '...\n'
+echo '..\n'
+echo '.\n'
 
-ssh peachy@192.168.1.24
+ssh $user_name@den_ip
