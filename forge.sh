@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-echo -e '\nEntering the Lab, sir...\n'
+echo -e '\nEntering the Forge, sir...\n'
 
-ssh peachy@192.168.1.18
+ssh $user_name@$forge_ip
