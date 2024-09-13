@@ -7,3 +7,5 @@
 
 
 ### Server Startup and Backup scripts
+- [Startup script](https://github.com/JarKanni/minecraft_backups/blob/main/start.sh)
+- [Backup script](https://github.com/JarKanni/minecraft_backups/blob/main/backup.sh)
